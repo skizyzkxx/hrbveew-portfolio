@@ -38,3 +38,5 @@ Todas as seções, menu mobile com fechamento por Escape, rolagem suave, indicad
 `npm run build` gera `dist/`, pronta para hospedagem estática. Em Netlify, Vercel ou Cloudflare Pages, configure o comando `npm run build` e a pasta de saída `dist`. Este projeto não usa rotas de servidor. Para domínio próprio, atualize os metadados antes de publicar. Não coloque tokens ou senhas em arquivos públicos ou em variáveis `VITE_*`.
 
 Antes de divulgar, configure o e-mail se desejar e mantenha os projetos atualizados. O site não afirma níveis de domínio, clientes, experiência profissional ou resultados não fornecidos.
+
+Os destaques trocam automaticamente a cada seis segundos. É possível pausar; o movimento para ao passar o mouse, focar os controles ou deixar a aba em segundo plano. Com movimento reduzido, começa pausado. A Lumi AI está marcada como atualmente desligada. A foto do Discord é configurável em `src/data/profile.ts`, campo `avatar`.
