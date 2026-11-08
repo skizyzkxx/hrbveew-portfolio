@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { ArrowUpRight, Menu, X } from 'lucide-react';
 import { useActiveSection } from '../hooks/useActiveSection';
-const links = [['inicio','Início'],['sobre','Sobre'],['habilidades','Habilidades'],['servicos','Serviços'],['projetos','Projetos'],['contato','Contato']];
+const links = [['inicio','Início'],['projetos','Projetos'],['sobre','Sobre'],['habilidades','Habilidades'],['servicos','Serviços'],['contato','Contato']];
 const ids = links.map(([id])=>id);
 export function Navbar() {
  const [open,setOpen] = useState(false); const active = useActiveSection(ids);

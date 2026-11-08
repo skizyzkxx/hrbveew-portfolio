@@ -22,7 +22,7 @@ npm run preview
 ## Personalização
 
 - `src/data/profile.ts`: GitHub, nome de usuário do Discord, e-mail público e redes adicionais. O GitHub atual é `skizyzkxx`; o Discord é `arqx_yt`. Nenhum link de Discord foi inventado: o botão copia o usuário para adicionar manualmente no aplicativo.
-- `src/data/projects.ts`: cadastro central de projetos; inclua nome, descrição, categoria (`Discord`, `Web` ou `Automação`), tecnologias e thumbnail. Adicione `github` e `demo` somente quando os links existirem. Mude `placeholder` para `false` apenas em projetos reais. Os cards atuais apresentam Bot-ticket, Lumi AI e este portfólio. As descrições dos dois primeiros se baseiam nos READMEs públicos, sem alegar validação de execução. As capas são ilustrações.
+- `src/data/projects.ts`: cadastro central de projetos; inclua nome, descrição, categoria (`Discord`, `Web` ou `Automação`), tecnologias e thumbnail. Adicione `github` e `demo` somente quando os links existirem. Mude `placeholder` para `false` apenas em projetos reais. Os cards atuais apresentam Bot-ticket, Lumi AI, os bots de moderação, sugestões e lembretes, além deste portfólio. As descrições dos dois primeiros se baseiam nos READMEs públicos, sem alegar validação de execução. As capas são ilustrações.
 - `public/images/`: imagens leves em SVG dos exemplos; inclua capturas reais se desejar. Imagens de projetos são carregadas sob demanda e têm dimensões definidas.
 - `src/sections/`: conteúdo de cada seção. `src/components/`: navegação e componentes reutilizáveis. `src/hooks/`: indicador de seção atual. `src/types/`: tipos.
 - `src/styles/global.css`: paleta em preto, branco e cinza, tipografia, detalhes visuais e regras responsivas.
@@ -31,7 +31,7 @@ npm run preview
 
 ## Recursos
 
-Todas as seções, menu mobile com fechamento por Escape, rolagem suave, indicador da seção atual, filtros de projetos, cópia do Discord com retorno de sucesso ou alternativa manual, links externos seguros, atalhos de acessibilidade e suporte a movimento reduzido. Não há formulário fictício, backend, coleta de dados, pagamentos ou segredos no cliente. O e-mail só vira um link quando configurado. Fontes são carregadas do Google Fonts, com alternativas locais.
+Todas as seções, menu mobile com fechamento por Escape, rolagem suave, indicador da seção atual, filtros de projetos, cópia do Discord com retorno de sucesso ou alternativa manual, links externos seguros, atalhos de acessibilidade, seletor de projetos em destaque, animações discretas de entrada e suporte a movimento reduzido. Não há formulário fictício, backend, coleta de dados, pagamentos ou segredos no cliente. O e-mail só vira um link quando configurado. Fontes são carregadas do Google Fonts, com alternativas locais.
 
 ## Hospedagem
 
